@@ -1,0 +1,28 @@
+.form-weui-tabbar__item{
+  display: flex;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  padding: 5px 0 0;
+  font-size: 0;
+  color: #999999;
+  text-align: center;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.at-input .input {
+  color: #333;
+  font-size: 0.68267rem;
+  height: 0.95573rem;
+  line-height: 1.5;
+}
+.propertis-setting{
+  background-color: #FAFBFC;text-align: center;padding: 0 24px;
+
+    font-size: 28px;
+    color:#6E7889;
+    text-align: left;
+    margin: 20px 0 8px 0;
+    line-height: 40px;
+}

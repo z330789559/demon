@@ -1,0 +1,50 @@
+.taro_page{
+  background-color:#F4F5F7 ;
+}
+
+.form{
+
+  .form-frame {
+    min-height: 100%;
+    background-color: #F4F5F7;
+    padding-bottom: 100px;
+    .form-add-btn{
+      margin: 80px;
+      background-color: #fff;
+      border: none;
+      box-shadow: 0px 4px 12px 0px rgba(100,103,107,0.22);
+      font-weight:400;
+      color:rgba(36,95,255,1);
+      font-size: 34px;
+    }
+    .form-frame-content{
+      background-color: #fff;
+
+    }
+    .form-header-music {
+      height: 40px;
+      width: 40px;
+      background-color: red;
+      border-radius: 50% 50%
+    }
+    .taro-tabbar_fix{
+      position: fixed;
+    }
+    .form-weui-tabbar__item{
+      display: flex;
+      flex-direction: column;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      flex: 1;
+      padding: 5px 0 0;
+      font-size: 0;
+      color: #999999;
+      text-align: center;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+  }
+}
+
+.form_item__wrap{
+
+}

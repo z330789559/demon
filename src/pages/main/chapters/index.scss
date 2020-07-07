@@ -1,0 +1,20 @@
+.chapter{
+  display: flex;
+  flex-flow: row;
+  height: 82px;
+  padding: 0 13px;
+  justify-content: space-between;
+  align-items: center;
+  &-left{
+    line-height:44px;
+    font-size:32px;
+    font-weight:500;
+    color:rgba(38,43,50,1);
+   }
+  &-right{
+    font-size:28px;
+    font-weight:400;
+    color:rgba(73,82,96,1);
+    line-height:40px;
+  }
+}

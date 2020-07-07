@@ -1,0 +1,46 @@
+@-webkit-keyframes rotating {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  to {
+    transform: rotate(1turn)
+  }
+}
+
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  to {
+    transform: rotate(1turn)
+  }
+}
+
+.bgm-btn-wraper {
+  right: 20px;
+  top: 20px;
+  display: none
+}
+
+.bgm-btn-wraper,.bgm-btn-wraper .bgm-btn {
+  position: absolute;
+  z-index: 200;
+  width: 60px;
+  height: 60px
+}
+
+.bgm-btn-wraper .bgm-btn {
+  right: 0;
+  top: 0;
+  border-radius: 30px;
+  background-image: url('../../assets/image/music.svg');
+  background-size: contain;
+  background-repeat: no-repeat
+}
+
+.bgm-btn-wraper .bgm-btn.rotate {
+  -webkit-animation: rotating 1.2s linear infinite;
+  animation: rotating 1.2s linear infinite
+}

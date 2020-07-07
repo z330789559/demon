@@ -1,0 +1,33 @@
+.form_item__wrap{
+  position: relative;
+  background-color: #F4F5F7;
+  padding: 24px 0;
+  .form_item__wrap_inner{
+    .form-edit-required{
+      color:red;
+      display: inline-block;
+      vertical-align: sub;
+    }
+    background-color: #fff;
+    padding: 38px 32px;
+    .form-edit-input{
+      font-size: 32px;
+      font-weight:400;
+      color:#262B32;
+      line-height:44px;
+
+    }
+    .at-input{
+      padding: 0;
+    }
+    .form_item__wrap-btn{
+      right: 0;
+      top: 20px;
+      height: 60px;
+      line-height: 30px;
+      position: absolute;
+      border:none;
+    }
+  }
+
+}

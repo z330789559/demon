@@ -1,0 +1,53 @@
+.sub-btn{
+  padding:40px;
+  text-align: center;
+  .support{
+    font-size:28px;
+    color:#ABB2BC
+  }
+}
+
+.publish-modal{
+
+  .publish-modal-bottom{
+    padding: 0 20px 30px 20px;
+  }
+  .publish-modal-tittle{
+    background:rgba(35,87,255,1);
+    padding:30px;
+    font-size:28px;
+    font-family:PingFangSC-Medium,PingFang SC;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+  }
+  .publish-modal-content{
+    font-size:28px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(147,155,168,1)
+  }
+  .publish-modal-confirm{
+    width:530px;
+    height:88px;
+    font-size:26px;
+    background:rgba(35,87,255,1);
+    border-radius:8px;
+    color:rgba(255,255,255,1);
+  }
+}
+
+.ftn-op{
+  position: fixed;
+  bottom: 0;
+  .ftn-btn{
+    width:376px;
+    height:96px;
+    background:rgba(36,95,255,1);
+  }
+  .ftn-btn-left{
+    border-radius: 8px 0 0 8px;
+  }
+  .ftn-btn-right{
+    border-radius: 0 8px 8px 0;
+  }
+}

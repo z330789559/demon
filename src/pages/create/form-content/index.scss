@@ -1,0 +1,33 @@
+.create-content-card{
+height:138px;
+  padding: 32px 26px 24px 24px;
+  display: flex;
+  justify-content: space-between;
+  .create-content-card__title{
+    font-size: 32px;
+    font-weight:500;
+    color:rgba(36,95,255,1);
+    line-height:44px;
+    .create-content-card__resume{
+      font-weight:400;
+      color:rgba(147,155,168,1);
+      line-height:34px;
+      font-size: 24px;
+    }
+  }
+  .create-content-card_image{
+    width:80px;
+    height:80px;
+
+  }
+}
+
+.create-list-tip{
+  font-weight:400;
+  color:rgba(73,82,96,1);
+  font-size: 26px;
+  margin-top: 16px;
+  .create-list-tip__visit{
+    width: 88px!important;
+  }
+}

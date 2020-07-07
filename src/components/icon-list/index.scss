@@ -1,0 +1,16 @@
+.demon-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  &-image{
+   width: 28px;
+    height: 28px;
+    margin-right: 2px;
+  }
+  &-text{
+    font-weight:400;
+    color:rgb(255, 122, 2);
+    font-size: 28px;
+  }
+}

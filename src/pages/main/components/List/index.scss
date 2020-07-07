@@ -1,0 +1,74 @@
+@import "@styles/theme.scss";
+.comp-item-list__item {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  padding: 32px 32px;
+  position: relative;
+  &-img {
+    width: 160px;
+    height: 120px;
+    margin-right: 16px;
+  }
+
+  &-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-name {
+    font-size: 36px;
+    font-weight:500;
+    color:#070D16;
+    line-height:50px;
+    @include text-ellipsis;
+  }
+
+  &-price-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &-catalog{
+    font-weight:400;
+    color:rgba(147,155,168,1);
+    line-height:24px;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  &-tag{
+    font-size:20px;
+    color:#2357FF;
+    padding: 0 2px;
+    margin-right: 20px;
+    border: 2px solid #2357FF;
+     border-radius: 2px 2px 2px 2px;
+  }
+
+  &-action{
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 86px;
+    width:100%;
+    border-top: 1px solid #D9DCE2;
+    color:#495260;
+    font-size: 28px;
+    padding:0 36px;
+    .colr{
+      color:#2357FF;
+      margin-left: 2px;
+    }
+  }
+  &-catalog--origin {
+    margin-left: 14px;
+    color: $text-color-lighter;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 48px;
+    text-decoration: line-through;
+    text-decoration-color: $text-color-lighter;
+  }
+}

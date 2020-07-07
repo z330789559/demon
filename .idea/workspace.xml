@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f8e3478-c834-4ae4-89cd-b081492f8a5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mock/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/formItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/formList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/opus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/sence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HocUi/ContentHocElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HocUi/FormHocElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HocUi/FormHocHeaderTabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HocUi/HocHeaderTabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HocUi/HocHeaderTabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HocUi/MainHocHeaderTabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HocUi/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HocUi/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/customerView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/formItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/formList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/opus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/sence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/close／1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/close／1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/close／2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/close／2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/community-active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/community.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/create.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/fash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／tabbar／作品.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／tabbar／作品备份.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／tabbar／我的.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／tabbar／我的备份.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／tabbar／社区-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／tabbar／社区.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／tabbar／首页.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／tabbar／首页备份@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／作品页／分享.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／作品页／分享@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／作品页／数据.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／作品页／数据@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／作品页／更多.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／作品页／更多@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／作品页／编辑.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／作品页／编辑@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／分享／QQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／分享／QQ@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／分享／复制链接.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／分享／复制链接@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／分享／微信.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／分享／微信@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／分享／微博.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／分享／微博@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／分享／朋友圈.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／分享／朋友圈@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／向右箭头.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／向右箭头@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单参数／收藏.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单参数／收藏@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单参数／满意度.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单参数／满意度@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单参数／热度-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单参数／热度-2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单参数／热度.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单参数／热度@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单相关／pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单相关／pic@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单相关／定位.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单相关／定位@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单相关／手机号.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单相关／手机号@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单相关／排序.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单相关／排序@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单相关／日期、时间.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／表单相关／日期、时间@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／选项编辑／其他.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／选项编辑／其他@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／选项编辑／删除.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／选项编辑／添加.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／选项编辑／添加@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／问卷功／music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／问卷功／music@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／QQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／QQ@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／下拉框.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／下拉框@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／分页.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／分页@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／单选.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／单选@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／图文上传.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／图文上传@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／地址.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／地址@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／多选.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／多选@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／姓名.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／姓名@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／学历.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／学历@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／定位.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／定位@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／年龄.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／年龄@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／微信.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／微信@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／性别.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／性别@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／手机.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／手机@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／文本.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／文本@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／日期、时间.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／日期、时间@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／显示图文件.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／显示图文件@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／职业.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／职业@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／评分.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／评分@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／邮箱.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／题型／邮箱@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／首页导航／时尚设计.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／首页导航／营销推广.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／首页导航／财富投顾.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/icon／首页导航／问卷调研@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/index-active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/iocn／return.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/iocn／return@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/me-active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/opus-active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/opus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/promotion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/star／chosen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/star／chosen@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/star／normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/star／normal@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/study.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/train.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/wealth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/发布成功.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/发布成功@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/新增(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/新增.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/新增@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/空白表单.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/空白表单@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/表单分类／投票评选.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/表单分类／投票评选@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/表单分类／测评考试.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/表单分类／测评考试@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/表单分类／登记报名.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/表单分类／登记报名@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/表单分类／问卷调研.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/表单分类／问卷调研@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/video/youhebuke.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Audio/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Audio/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductCard/Index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductCard/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/checkbox/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footerOpertorBtn/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footerOpertorBtn/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footerTabBars/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footerTabBars/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home-title/aseets/arrow-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home-title/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home-title/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icon-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icon-list/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input-item/assets/clear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input-item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input-item/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input-number/assets/minus-disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input-number/assets/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input-number/assets/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input-number/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/input-number/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/item-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/item-list/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loading/assets/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loading/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loading/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/popup/assets/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/popup/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/popup/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/radio/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/rate/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/rate/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tab/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tab/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tag/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tag/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/customerView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/formList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/formitem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/globalEnum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/opus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/sence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/issue/primary/demon-Tools/DemonTools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/issue/primary/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/issue/primary/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/issue/primary/property-setting/CheckBoxPropertySetting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/issue/primary/property-setting/DownLoadPropertySetting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/issue/primary/property-setting/ImagePropertySetting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/issue/primary/property-setting/PtextPropertySetting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/issue/primary/property-setting/RadioPropertySetting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/issue/primary/property-setting/RatePropertySetting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/issue/primary/property-setting/SectionPropertySetting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/issue/primary/property-setting/TagPropertySetting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/issue/primary/property-setting/TextPropertySetting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/issue/special/ContainerPropertySetting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/issue/special/ModalPropertySetting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/issue/special/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/community/community.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/community/community.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/components/Content/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/components/Content/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/components/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/components/Header/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/create/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/create/create.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/create/form-content/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/create/form-content/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/create/sence-content/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/create/sence-content/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/create/sence-detail/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/create/sence-detail/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/customer-view/customer-view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/customer-view/customer-view.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/element-property/ElementProperty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/form-element/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/form-element/Header/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/form-element/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/form-item/form-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/form-item/form-item.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/form-list/form-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/form-list/form-list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/form-preview/form-preview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/form-preview/form-preview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/issue-lib/issue-lib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/issue-lib/issue-lib.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/chapters/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/chapters/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/List/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/List/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/form-content/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/form-content/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/search/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/secondchannal/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/secondchannal/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/sence-content/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/sence-content/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/me/me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/me/me.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/opus/opus-item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/opus/opus-item/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/opus/opus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/opus/opus.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sence-preview/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sence-preview/sence-preview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/user-login/user-login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/user-login/user-login.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/customerView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/formItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/formList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/opus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/sence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/animation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/baseCSS.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/avatar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/bar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/bgColor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/border.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/chat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/lineColor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/load.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/steps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/swiper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/tag.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/category/timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/actionSheet.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/animation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/avatar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/calendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/checkbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/curtain.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/drawer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/floatButton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/imagePicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/loading.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/menuList.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/message.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/navBar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/noticeBar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/radio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/screenDrawer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/searchBar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/shopBar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/steps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/swiper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/swiperAction.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/tabBar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/tag.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/textarea.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/tip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/titleBar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/tree.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/components/verticalTab.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/drawer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/h5.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/mp-color/vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/jump.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/redux.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/taro.alipay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/tools.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/create/sence-detail/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1029">
+              <caret line="70" column="76" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="76" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/reducers/formItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="123" column="16" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/customer-view/customer-view.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="86" column="27" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/HocUi/ContentHocElement.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="104" column="9" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/form-item/form-item.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/element-property/ElementProperty.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/customerView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2070">
+              <caret line="138" column="20" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/issue/special/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/issue-lib/issue-lib.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1245">
+              <caret line="259" column="6" selection-start-line="259" selection-start-column="6" selection-end-line="259" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+                <element signature="e#432#1791#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/formList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>；</find>
+      <find>&quot;</find>
+      <find>dispatchFormList</find>
+      <find>addValue</find>
+      <find>deleteCurrentItem</find>
+      <find>addSelectList</find>
+      <find>IconList</find>
+      <find>slider</find>
+      <find>dispatchAddElement</find>
+      <find>form_item__wrap</find>
+      <find>cm-preview-download</find>
+      <find>form_item__wrap_inner</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/constants/opus.js" />
+        <option value="$PROJECT_DIR$/src/pages/create/sence-content/sence-detail/index.js" />
+        <option value="$PROJECT_DIR$/mock/sence.js" />
+        <option value="$PROJECT_DIR$/src/pages/main/components/List/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/create/sence-detail/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/upload-file/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/upload-file/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/form-preview/form-preview.scss" />
+        <option value="$PROJECT_DIR$/src/pages/form-preview/form-preview.js" />
+        <option value="$PROJECT_DIR$/src/issue/primary/property-setting/DownLoadPropertySetting.js" />
+        <option value="$PROJECT_DIR$/src/app.scss" />
+        <option value="$PROJECT_DIR$/src/issue/primary/property-setting/SectionPropertySetting.js" />
+        <option value="$PROJECT_DIR$/src/pages/issue-lib/issue-lib.scss" />
+        <option value="$PROJECT_DIR$/src/pages/components/Content/index.js" />
+        <option value="$PROJECT_DIR$/src/reducers/opusItem.js" />
+        <option value="$PROJECT_DIR$/src/pages/opus/opus-item/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/form-list/form-list.js" />
+        <option value="$PROJECT_DIR$/src/actions/sence.js" />
+        <option value="$PROJECT_DIR$/src/constants/sence.js" />
+        <option value="$PROJECT_DIR$/src/reducers/sence.js" />
+        <option value="$PROJECT_DIR$/src/issue/primary/property-setting/ImagePropertySetting.js" />
+        <option value="$PROJECT_DIR$/src/issue/primary/property-setting/TextPropertySetting.js" />
+        <option value="$PROJECT_DIR$/src/issue/primary/property-setting/PtextPropertySetting.js" />
+        <option value="$PROJECT_DIR$/src/issue/primary/index.js" />
+        <option value="$PROJECT_DIR$/src/components/rate/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/form-element/Header/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/form-item/form-item.scss" />
+        <option value="$PROJECT_DIR$/src/utils/style.js" />
+        <option value="$PROJECT_DIR$/src/pages/create/sence-content/sence-preview/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/create/sence-content/sence-preview/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/sence-preview/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/sence-preview/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/sence-preview/sence-preview.js" />
+        <option value="$PROJECT_DIR$/src/constants/globalEnum.js" />
+        <option value="$PROJECT_DIR$/src/pages/create/sence-detail/index.js" />
+        <option value="$PROJECT_DIR$/src/constants/formitem.js" />
+        <option value="$PROJECT_DIR$/src/actions/formItem.js" />
+        <option value="$PROJECT_DIR$/src/HocUi/index.scss" />
+        <option value="$PROJECT_DIR$/src/pages/customer-view/customer-view.scss" />
+        <option value="$PROJECT_DIR$/src/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/app.js" />
+        <option value="$PROJECT_DIR$/src/constants/customerView.js" />
+        <option value="$PROJECT_DIR$/src/actions/customerView.js" />
+        <option value="$PROJECT_DIR$/src/reducers/customerView.js" />
+        <option value="$PROJECT_DIR$/src/issue/special/ModalPropertySetting.js" />
+        <option value="$PROJECT_DIR$/src/issue/special/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/element-property/ElementProperty.js" />
+        <option value="$PROJECT_DIR$/src/HocUi/ContentHocElement.js" />
+        <option value="$PROJECT_DIR$/src/reducers/formItem.js" />
+        <option value="$PROJECT_DIR$/src/pages/customer-view/customer-view.js" />
+        <option value="$PROJECT_DIR$/src/pages/issue-lib/issue-lib.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="121" />
+    <option name="y" value="34" />
+    <option name="width" value="1470" />
+    <option name="height" value="976" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HocUi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="issue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="issue" type="462c0819:PsiDirectoryNode" />
+              <item name="primary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="issue" type="462c0819:PsiDirectoryNode" />
+              <item name="primary" type="462c0819:PsiDirectoryNode" />
+              <item name="property-setting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="issue" type="462c0819:PsiDirectoryNode" />
+              <item name="special" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="create" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="create" type="462c0819:PsiDirectoryNode" />
+              <item name="sence-detail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="customer-view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="element-property" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="form-element" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="form-item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="issue-lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="sence-preview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/pages/create" />
+      <recent name="$PROJECT_DIR$/src/pages/main" />
+      <recent name="$PROJECT_DIR$/src/pages/opus/components/List" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/issue/special" />
+      <recent name="$PROJECT_DIR$/src/issue/primary/property-setting" />
+      <recent name="$PROJECT_DIR$/src/pages/opus/opus-item" />
+      <recent name="$PROJECT_DIR$/src/pages/sense" />
+      <recent name="$PROJECT_DIR$/mock" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f8e3478-c834-4ae4-89cd-b081492f8a5f" name="Default Changelist" comment="" />
+      <created>1583337155600</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583337155600</updated>
+      <workItem from="1583337157246" duration="25733000" />
+      <workItem from="1583480675078" duration="72235000" />
+      <workItem from="1584338978081" duration="28984000" />
+      <workItem from="1584757858177" duration="8866000" />
+      <workItem from="1585449060003" duration="13931000" />
+      <workItem from="1586266990020" duration="261000" />
+      <workItem from="1586694258768" duration="4368000" />
+      <workItem from="1587279255316" duration="8686000" />
+      <workItem from="1587909771607" duration="6000" />
+      <workItem from="1587913283387" duration="816000" />
+      <workItem from="1589723481787" duration="2075000" />
+      <workItem from="1590310871523" duration="16902000" />
+      <workItem from="1590664215610" duration="14048000" />
+      <workItem from="1591857492888" duration="5872000" />
+      <workItem from="1592617340519" duration="31324000" />
+      <workItem from="1593925541129" duration="5321000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="239428000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="121" y="34" width="1470" height="976" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13112491" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936978" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936978" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3295964" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29369798" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2194617" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936978" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936978" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3295964" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29369798" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/form-preview/form-preview.js</url>
+          <line>108</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/issue/primary/property-setting/TextPropertySetting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/issue/primary/property-setting/PtextPropertySetting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/issue/primary/demon-Tools/DemonTools.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/issue/primary/property-setting/TagPropertySetting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/redux.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/rate/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/taro-ui/types/rate.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/form-element/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/main/sence-content/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/components/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/components/Header/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/form-element/Header/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/create/sence-detail/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.temp/pages/components/Content/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/form-item/form-item.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/api.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/form-preview/form-preview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="59" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/formitem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/form-preview/form-preview.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HocUi/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/create/sence-content/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/customer-view/customer-view.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/globalEnum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+          <folding>
+            <element signature="e#11#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/opus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/formList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/create.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/customerView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/formItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/counter.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/customerView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/sence-preview/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/sence-preview/sence-preview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="116" column="60" selection-start-line="116" selection-start-column="60" selection-end-line="116" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/taro-ui/types/base.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/taro-ui/types/button.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/issue/primary/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/issue/special/ModalPropertySetting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/issue/special/ContainerPropertySetting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/issue/special/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/customer-view/customer-view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="86" column="27" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/customerView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="138" column="20" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HocUi/ContentHocElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="104" column="9" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/form-item/form-item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/element-property/ElementProperty.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/create/sence-detail/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="70" column="76" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/issue-lib/issue-lib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="259" column="6" selection-start-line="259" selection-start-column="6" selection-end-line="259" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#432#1791#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/formList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/formItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="123" column="16" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
