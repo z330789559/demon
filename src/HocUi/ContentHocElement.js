@@ -15,6 +15,8 @@ export default class FormHocElement extends Component {
   changeCurrentElement = (element) => {
     this.props.changeCurrentElement(element.id)
   }
+
+
   getWrapContainer = (element, children) => {
     return (
       <View>
@@ -104,7 +106,7 @@ export default class FormHocElement extends Component {
           element.style.bottom = (element.style.bottom + 100) + "px";
         }
         return this.getWrapContainer(element, <View style={getRealPx(element.style)}>
-          {element.childrens.map(children => this.getCurrentComponent(children))}
+          {element.childrens.length>0?element.childrens.map(children => this.getCurrentComponent(children)):"点击我添加内容"}
         </View>)
       case PAGEKEY.container:
 
@@ -114,8 +116,8 @@ export default class FormHocElement extends Component {
             element.style.bottom = element.style.bottom ? element.style.bottom.replace("px") : 0;
             element.style.bottom = (element.style.bottom + 100) + "px";
           }
-          return <View style={getRealPx(element.style)}>
-            {element.childrens.map(children => this.getCurrentComponent(children))}
+          return <View style={getRealPx(element.style)} >
+            {element.childrens.length>0?element.childrens.map(children => this.getCurrentComponent(children)):"点击我添加内容"}
           </View>
         } else {
           return ''
@@ -140,12 +142,12 @@ export default class FormHocElement extends Component {
   }
 
   render() {
+    debugger
     const {element, isPreview, hideWrap, itemStyles} = this.props
     if (isPreview === PAGESTATUS.development) {
       itemStyles['paddingTop'] = '40px'
     }
     {
-      debugger
       return isPreview === PAGESTATUS.development ? (
         <View className={hideWrap ? 'form_item__wrap' : 'form_item__wrap item-margin'}>
           <View className='form_item__wrap_inner' style={getRealPx(itemStyles)}>

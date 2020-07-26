@@ -37,8 +37,8 @@ export default class extends Component{
   }
   componentDidMount() {
     const params= this.$router.params
-    if(params && params.itemId){
-      this.props.dispatchFormItemLoad(params)
+    if(params && params.id){
+      this.props.dispatchFormItemLoad({id:params.id})
     }
   }
   onAddIssue=()=>{
@@ -69,6 +69,7 @@ export default class extends Component{
 //onSort,onSetting,onPreView
   render() {
     const {header,body,hideWrap,itemStyles,defineState,onDispatchPropsChange} =this.props
+    debugger
     const isPreview=PAGESTATUS.development
     const sortBody=sort(body,'order');
     return <View className='form'>

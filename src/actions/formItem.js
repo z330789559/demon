@@ -1,5 +1,5 @@
 import {
-  FORM_ELEMENT_LOAD,FORM_ADD_ELEMENT,FORM_DELETE_ELEMENT,FORM_CHANGE_HEADER,FORM_PROJECT_TYPE,PROPS_STATUS_CHANGE
+  FORM_ELEMENT_LOAD,FORM_ADD_ELEMENT,FORM_DELETE_ELEMENT,FORM_CHANGE_HEADER,FORM_PROJECT_TYPE,PROPS_STATUS_CHANGE,PROPS_PARRENT_CHANGE
 } from '@constants/formItem'
 
 import  {
@@ -25,38 +25,46 @@ export const dispatchFormItemLoad= payload=>createAction({
 })
 
 
-export const dispatchAddElement=playLoad=>dispatch=> {
+export const dispatchAddElement=payload=>dispatch=> {
     dispatch({
       type: FORM_ADD_ELEMENT,
-      playLoad
+      payload
     })
 }
-export const dispatchDeleteElement=playLoad=>dispatch=>{
+export const dispatchDeleteElement=payload=>dispatch=>{
    dispatch({
     type:FORM_DELETE_ELEMENT,
-     playLoad
+     payload
   })
 }
-export const dispatchProjectType=playLoad=>dispatch=>{
+export const dispatchProjectType=payload=>dispatch=>{
    dispatch({
     type:FORM_PROJECT_TYPE,
-     playLoad
+     payload
   })
 }
 
-export const dispatchChangeHeader=playLoad=>dispatch=>{
+export const dispatchChangeHeader=payload=>dispatch=>{
    dispatch({
     type:FORM_CHANGE_HEADER,
-     playLoad:{
-      header: playLoad,
+     payload:{
+      header: payload,
      }
   })
 }
-export const onDispatchPropsChange=playLoad=>dispatch=>{
+export const onDispatchPropsChange=payload=>dispatch=>{
    dispatch({
     type: PROPS_STATUS_CHANGE,
-     playLoad:{
-       defineState: playLoad,
+     payload:{
+       defineState: payload,
+     }
+  })
+}
+export const dispathChangeParent=payload=>dispatch=>{
+   dispatch({
+    type: PROPS_PARRENT_CHANGE,
+     payload:{
+       currentParentElement:payload.element
      }
   })
 }

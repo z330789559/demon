@@ -13,16 +13,14 @@ export default class extends Component {
   }
 
   handleChange=(key,value)=>{
+    debugger
     let _element =deepClone(this.state.element)
     let $element={
       ..._element,
       [key]: value
     }
     this.setState({
-      element: {
-        ..._element,
-        [key]: value
-      }
+      element: $element
     })
   }
 
@@ -74,7 +72,7 @@ export default class extends Component {
             title='内容'
             type='text'
             placeholder='内容'
-            value={element.correntValue}
+            value={element.content}
             onChange={this.handleChange.bind(this,'content')}
           />
         </View>

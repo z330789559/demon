@@ -4,8 +4,10 @@ import {DemonTools} from '@issue/primary'
 import ElementProperty from '../element-property/ElementProperty'
 import { AtNavBar,AtTabs, AtTabsPane } from 'taro-ui'
 import { connect } from '@tarojs/redux'
+import PubSub from 'pubsub-js';
 import * as actions from '@actions/formItem'
 import './issue-lib.scss'
+import {ENVENT_TYPE } from'@constants/globalEnum'
 const $$element={
   issueType:{
     primary:[{
@@ -207,12 +209,14 @@ const $$element={
         type:'modal',
         name:'模块',
         content:'',
+        childrens:[],
         icon:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAACaklEQVRoQ+2au0srQRTGv2PMBS1VtDGCGBTb6y1voSAX/Avis7XRwlhbWFjfWHib2/rMXyCIoIWl2oqSIGgaRW0FYzwywYSNJtmZ7COz62w7jzO/+c58M7s7hJA/FHI+GMCgK2wU/FYKDs1xfyGPNQbGwegEEPFiAqgFc5ld2nKjb+kULcK94JSBDjcC2/TxTFH8zmzRudNY0oDxSd5mxrTTgArtbyItGLnapQeFNl+qSgMOTPIdGN1Ogqm2JeCodxh/jlfpVbVtqb48YIJFkPKaiw0j6iRwtQHHE5xiYMlaRsB6Jk1JPwDZGiSbJunJkR3c6Cq35i5wwMBYBaQD05Ee5ECCPQcUUINT3FV4wxmAPgtkw6ajHaCAis/yT87jBECbBbIh09ESsAg5xbP8hs1P61HZdLQFLEK6YDpaA7phOloD1jOdbJraZdxZe0CL6QhnLT+y21QgAAVVo9uUb4CLKZ4A8P9DgvmNJO3LpFipThAAb5nRKwZMhNxGkmKhAlz4W3kS+resdtTTXkEDaJOvRsEaE+SbiwY+RUvbQMkpVRyy4kBNyAH4so00PUUXU1zeBhqFK39mqLKNGECv12DoU9QuLQNvMgbQHNXq50DTXdSkqEnRgKeo9aQTyhfe0H+ysDMhu3LtXdQOwK7cAHp92LZTwGm5UdAFBT3/hV1LZfET5vYCeUt5IZumVpmskP8m04RLCDUBCPfZPepxFbAJ10hq8xF2Mns04yqgzxeB6oiHp8gP/LrcpGtXAUVnfl3lqjLwAgiPBBxGoliRhRP9SK9BmdnSsY4B1FEVlTEZBVVmS8e6oVfwHYog60gL7UeJAAAAAElFTkSuQmCC',
       },
       {
         type:'container',
         name:'容器',
         content:'',
+        childrens:[],
         icon:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAACaklEQVRoQ+2au0srQRTGv2PMBS1VtDGCGBTb6y1voSAX/Avis7XRwlhbWFjfWHib2/rMXyCIoIWl2oqSIGgaRW0FYzwywYSNJtmZ7COz62w7jzO/+c58M7s7hJA/FHI+GMCgK2wU/FYKDs1xfyGPNQbGwegEEPFiAqgFc5ld2nKjb+kULcK94JSBDjcC2/TxTFH8zmzRudNY0oDxSd5mxrTTgArtbyItGLnapQeFNl+qSgMOTPIdGN1Ogqm2JeCodxh/jlfpVbVtqb48YIJFkPKaiw0j6iRwtQHHE5xiYMlaRsB6Jk1JPwDZGiSbJunJkR3c6Cq35i5wwMBYBaQD05Ee5ECCPQcUUINT3FV4wxmAPgtkw6ajHaCAis/yT87jBECbBbIh09ESsAg5xbP8hs1P61HZdLQFLEK6YDpaA7phOloD1jOdbJraZdxZe0CL6QhnLT+y21QgAAVVo9uUb4CLKZ4A8P9DgvmNJO3LpFipThAAb5nRKwZMhNxGkmKhAlz4W3kS+resdtTTXkEDaJOvRsEaE+SbiwY+RUvbQMkpVRyy4kBNyAH4so00PUUXU1zeBhqFK39mqLKNGECv12DoU9QuLQNvMgbQHNXq50DTXdSkqEnRgKeo9aQTyhfe0H+ysDMhu3LtXdQOwK7cAHp92LZTwGm5UdAFBT3/hV1LZfET5vYCeUt5IZumVpmskP8m04RLCDUBCPfZPepxFbAJ10hq8xF2Mns04yqgzxeB6oiHp8gP/LrcpGtXAUVnfl3lqjLwAgiPBBxGoliRhRP9SK9BmdnSsY4B1FEVlTEZBVVmS8e6oVfwHYog60gL7UeJAAAAAElFTkSuQmCC',
       },
     ]
@@ -253,6 +257,7 @@ export default class IssueLib extends Component{
       page:"main",
       element:{},
     }
+
   }
   handleTabClick (value) {
     this.setState({
@@ -260,11 +265,11 @@ export default class IssueLib extends Component{
     })
   }
   addElement=(element)=>{
-    const { currentParent }=this.props;
-    if(element.type==='modal' && currentParent!==0){
+    const { currentParentElement }=this.props;
+    if((element.type==='modal' && currentParent!==0)||(element.type===currentParentElement.type)){
       return alert('模块的父级必须是顶级容器')
     }
-    if(element.type==='container' && currentParent===0){
+    if(element.type==='container' && currentParent===0||(element.type===currentParentElement.type)){
       return alert('容器的父级不能是顶级容器')
     }
     this.setState({
@@ -272,6 +277,7 @@ export default class IssueLib extends Component{
       page:"properties"
     })
   }
+
   handleClick=()=>{
     Taro.navigateBack();
 }
@@ -286,31 +292,42 @@ export default class IssueLib extends Component{
     })
   }
 
+
   getUrl=()=>{
-   const {projectType} =this.state
+   const {projectType} =this.props
     console.log(projectType)
    return ['/pages/form-item/form-item','/pages/create/sence-detail'][projectType]
   }
 componentDidMount() {
   const params= this.$router.params;
 
+  debugger
+  let projectType=0;
+  if(!!params.projectType){
+    projectType=params.projectType;
+    this.props.dispatchProjectType({projectType:projectType});
+  }
+
   if(params && params.id && params.page){
     const {body} = this.props
    let _index =body.findIndex(item=>item.id==params.id)
     this.setState({
       element: body[_index],
-      projectType:params.projectType||this.state.projectType,
       page: params.page
     })
 
-    this.props.dispatchProjectType({projectType:params.projectType});
+
 
   }else{
     this.setState({
-      projectType:params.projectType||this.state.projectType,
+      page: params.page
     })
-    this.props.dispatchProjectType({projectType:params.projectType});
   }
+
+    PubSub.subscribe(ENVENT_TYPE.MODEL_ADD_ELEMNT_START, (event,data) =>{
+      debugger
+      this.props.dispathChangeParent(data)
+    })
   }
 
   getElementCollectionPage=()=>{
@@ -369,14 +386,16 @@ componentDidMount() {
   }
   settingProperties=(element)=>{
     this.props.dispatchAddElement(element)
+    debugger
     Taro.navigateTo({
       url:this.getUrl(),
     })
   }
 
+
   getPropertiesPage=()=>{
     return (<View style='min-height:100vh'>
-      <ElementProperty deleteElement={this.deleteElement.bind(this)} settingProperties={this.settingProperties.bind(this)}  element={this.state.element}/>
+      <ElementProperty changeCurrentparent={(element)=>this.changeCurrentParent(element)}  deleteElement={this.deleteElement.bind(this)} settingProperties={this.settingProperties.bind(this)}  element={this.state.element}/>
     </View>)
   }
   getcurrentPage=()=>{

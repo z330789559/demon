@@ -25,14 +25,47 @@ const Query = (options, dataSource) => {
 
 
 const data = {
+  /**
+   * 常见模版页面（目前数据暂时归类出来)
+   */
+  'GET /api/opus/template': opusData.list,
+
+
   'GET /api/opus/list': opusData.list,
+  /**
+   * 作品店铺页面，查询当前店铺或者人员的作品集合
+   */
   'GET /api/opus': opusData.initData,
+  /**
+   * 场景列表数据
+   * 根据code决定是场景还是form
+   *  //收藏
+   LIKE: 'LIKE',
+   //遇见
+   OCCURE: 'OCCURE',
+   //H5
+   H5: 'H5',
+   //视频
+   VIDEO: 'VIDEO',
+   //表单
+   FORM: 'FORM',
+   // 海报
+   POST: 'POST',
+   //更多
+   SCENE: 'SCENE'
+   */
   'GET /api/sences': senceData.initData,
+  /**
+   *首页表单获取接口
+   */
   'GET /api/main/content': {
     data: mainData.initData,
     message:"",
     code: '200'
   },
+  /**
+   * 创建页面
+   */
   'GET /api/create/cate':{
     data: createData.sudCate,
     message:"",
@@ -43,11 +76,21 @@ const data = {
     message:"",
     code: '200'
   },
+  /**
+   * 查询页面元素
+   * 搭建完成页面组成的json集合
+   */
   'GET /api/form/elements':{
     data: formItemData.page,
     message:"",
     code: '200'
   },
+  /**
+   * 表单推荐
+   * @param req
+   * @param res
+   * @constructor
+   */
   'GET /api/main/recommend': (req, res) => {
     const { query } = req;
     const { current, pageSize, dataSource } = Query(query, mainData.recommend.recommends);
@@ -65,6 +108,12 @@ const data = {
       code: '200'
     })
   },
+  /**
+   * 创建表单页面，表单列表
+   * @param req
+   * @param res
+   * @constructor
+   */
   'GET /api/create/list': (req, res) => {
     const { query } = req;
     const { current, pageSize, dataSource } = Query(query, createData.recommendTemplate.recommends);
@@ -82,6 +131,12 @@ const data = {
       code: '200'
     })
   },
+  /**
+   * 频道表单页面表单列表
+   * @param req
+   * @param res
+   * @constructor
+   */
   'GET /api/form/list': (req, res) => {
     const { query } = req;
     const { current, pageSize, dataSource } = Query(query, formListData.list.list);

@@ -57,6 +57,13 @@ export default class extends Component{
     })
 
   }
+
+  // changeCurrentParent=(element)=>{
+  //   this.props.changeParent(element)
+  //   Taro.navigateTo({
+  //     url:'/pages/issue-lib/issue-lib'
+  //   })
+  // }
   changeCurrentElement=(id)=>{
     Taro.navigateTo({
       url:'/pages/issue-lib/issue-lib?page=properties&id='+id

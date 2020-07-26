@@ -1,5 +1,5 @@
 import {
-  FORM_ELEMENT_LOAD,FORM_ADD_ELEMENT,FORM_DELETE_ELEMENT,FORM_CHANGE_HEADER,FORM_PROJECT_TYPE,PROPS_STATUS_CHANGE
+  FORM_ELEMENT_LOAD,FORM_ADD_ELEMENT,FORM_DELETE_ELEMENT,FORM_CHANGE_HEADER,FORM_PROJECT_TYPE,PROPS_STATUS_CHANGE,PROPS_PARRENT_CHANGE,
 } from '@constants/formItem'
 
 
@@ -8,7 +8,8 @@ const INITIAL_STATE = {
       templateId:1,
       userId:1,
       pageId:1,
-      currentParent: 0, //0标示body
+      currentParent: 0, //0标示body,1。模块 2。容器
+      currentParentElement: null,
       header:{
         imageUrl:'',title:'默认标题',description:'默认描述', videoUrl:'',
         showTitle:false,
@@ -206,47 +207,71 @@ export default function formItem(state = INITIAL_STATE, action) {
     case FORM_ELEMENT_LOAD: {
       return {
         ...state,
-        ...action.playLoad
+        ...action.payload
       }
     }
     case FORM_PROJECT_TYPE: {
+      debugger
       return {
         ...state,
-        ...action.playLoad
+        ...action.payload
       }
     }
     case FORM_ADD_ELEMENT: {
-      const body=state.body
-      if(!action.playLoad ||!action.playLoad.id ){
+
+      const isChildren=!!state.currentParentElement;
+      const body=state.currentParentElement?state.currentParentElement.childrens:state.body;
+      if(!action.payload ||!action.payload.id ){
         return state;
       }
       if(!body || body.length===0){
-        action.playLoad.order=0;
+        action.payload.order=0;
+        if(isChildren){
+           state.currentParentElement.childrens.push(action.payload)
+          return {
+             ...state,
+            currentParentElement:null
+          }
+        }
         return {
           ...state,
-          body:[action.playLoad]
+          body:[action.payload]
         }
       }
-    const index= body.findIndex((item)=>item.id==action.playLoad.id);
+    const index= body.findIndex((item)=>item.id==action.payload.id);
       if(index > -1){
-        action.playLoad.order=body.length;
+        action.payload.order=body.length;
+        if(isChildren){
+          state.currentParentElement.childrens=[...body.slice(0,index),action.payload,...body.slice(index+1,body.length)]
+          return {
+            ...state,
+            currentParentElement:null
+          }
+        }
         return {
           ...state,
-         body: [...body.slice(0,index),action.playLoad,...body.slice(index+1,body.length)]
+         body: [...body.slice(0,index),action.payload,...body.slice(index+1,body.length)]
         }
       }
 
+      if(isChildren){
+         state.currentParentElement.childrens.push(action.payload)
+        return {
+          ...state,
+          currentParentElement:null
+        }
+      }
       return {
         ...state,
-        body:[...body,action.playLoad]
+        body:[...body,action.payload]
       }
     }
     case FORM_DELETE_ELEMENT: {
       const body=state.body
-      if(!body || body.length===0|| !action.playLoad.id){
+      if(!body || body.length===0|| !action.payload.id){
         return state;
       }
-    const index= body.findIndex((item)=>item.id==action.playLoad.id);
+    const index= body.findIndex((item)=>item.id==action.payload.id);
       if(index > -1){
         return {
           ...state,
@@ -256,15 +281,24 @@ export default function formItem(state = INITIAL_STATE, action) {
 
       return state
     }
+    case  PROPS_PARRENT_CHANGE:{
+   const  el=  action.payload
+      const currentParent=el.type=="modal"?1:el.type=="container"?2:0;
+      return {
+        ...state,
+        ...action.payload,
+        currentParent
+      }
+    }
     case FORM_CHANGE_HEADER:
       return {
         ...state,
-        ...action.playLoad
+        ...action.payload
       }
     case PROPS_STATUS_CHANGE:
       return {
         ...state,
-        ...action.playLoad
+        ...action.payload
       }
     default:
       return state
