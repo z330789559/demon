@@ -1,11 +1,11 @@
 const isH5 = process.env.CLIENT_ENV === 'h5'
 
-const HOST = '""'
-const HOST_M = '""'
+const HOST = '"http://house.yffrom.com:3721/"'
+const HOST_M = '"http://house.yffrom.com:3721/"'
 
 // XXX 搭了个 proxy 用于演示 prod 环境的 H5
-const HOST_H5 = '""'
-const HOST_M_H5 = '""'
+const HOST_H5 = '"http://house.yffrom.com:3721/"'
+const HOST_M_H5 = '"http://house.yffrom.com:3721/"'
 
 module.exports = {
   env: {

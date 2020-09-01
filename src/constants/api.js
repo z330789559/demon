@@ -1,5 +1,5 @@
 // /* eslint-disable */
-export const host = ""
+export const host = "/"
 // export const hostM = HOST_M
 // /* eslint-enable */
 // export const app_host= APP_HOST
