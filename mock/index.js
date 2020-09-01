@@ -38,22 +38,22 @@ const data = {
   'GET /api/opus': opusData.initData,
   /**
    * 场景列表数据
-   * 根据code决定是场景还是form
-   *  //收藏
-   LIKE: 'LIKE',
-   //遇见
-   OCCURE: 'OCCURE',
-   //H5
-   H5: 'H5',
-   //视频
-   VIDEO: 'VIDEO',
-   //表单
-   FORM: 'FORM',
-   // 海报
-   POST: 'POST',
-   //更多
-   SCENE: 'SCENE'
-   */
+  * 根据code决定是场景还是form
+  *  //收藏
+  LIKE: 'LIKE',
+  //遇见
+  OCCURE: 'OCCURE',
+  //H5
+  H5: 'H5',
+  //视频
+  VIDEO: 'VIDEO',
+  //表单
+  FORM: 'FORM',
+  // 海报
+  POST: 'POST',
+  //更多
+  SCENE: 'SCENE'
+    */
   'GET /api/sences': senceData.initData,
   /**
    *首页表单获取接口

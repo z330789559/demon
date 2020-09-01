@@ -19,7 +19,7 @@ export default class FormHocElement extends Component {
 
   getWrapContainer = (element, children) => {
     return (
-      <View>
+      <View current-el={element.id} >
         {element.must === 0 ? <Text className='form-edit-required'>*</Text> : ''}
         {element.catalog === 0 ? <Text className='form-edit-input'>{element.title}</Text> : ''}
         {children}
@@ -84,8 +84,10 @@ export default class FormHocElement extends Component {
         </View>)
       case PAGEKEY.download:
         return this.getWrapContainer(element, <View className='cm-preview-download'
-                                                    onClick={() => this.downFile(element.url)}><Image
-          src={element.rightIcon} style={getRealPx(element.rightStyle)}/><Text>{element.title}</Text></View>)
+          onClick={() => this.downFile(element.url)}
+        ><Image
+          src={element.rightIcon} style={getRealPx(element.rightStyle)}
+        /><Text>{element.title}</Text></View>)
       case PAGEKEY.image:
         return this.getWrapContainer(element, <Image
           style={getRealPx(element.style)}
@@ -133,7 +135,8 @@ export default class FormHocElement extends Component {
           if (currentAction === PAGEACTION.AJAX) {
             return <View style={getRealPx(currentStyle)}>
               <AtButton type={element.theme} full={element.full} customStyle={getRealPx(element.preStyles)}
-                        onClick={() => this.callAjax(element)}>{element.title}</AtButton>
+                onClick={() => this.callAjax(element)}
+              >{element.title}</AtButton>
             </View>
           }
         }
@@ -142,7 +145,6 @@ export default class FormHocElement extends Component {
   }
 
   render() {
-    debugger
     const {element, isPreview, hideWrap, itemStyles} = this.props
     if (isPreview === PAGESTATUS.development) {
       itemStyles['paddingTop'] = '40px'
@@ -152,12 +154,14 @@ export default class FormHocElement extends Component {
         <View className={hideWrap ? 'form_item__wrap' : 'form_item__wrap item-margin'}>
           <View className='form_item__wrap_inner' style={getRealPx(itemStyles)}>
             <AtButton className='form_item__wrap-btn'
-                      onClick={this.changeCurrentElement.bind(this, element)}>....</AtButton>
+              onClick={this.changeCurrentElement.bind(this, element)}
+            >....</AtButton>
             {this.getCurrentComponent(element)}
           </View>
         </View>) : (<View className={hideWrap ? 'form_item__wrap' : 'form_item__wrap item-margin'}> <View
-        className='form_item__wrap_inner'
-        style={getRealPx(itemStyles)}>{this.getCurrentComponent(element)}</View></View>)
+          className='form_item__wrap_inner'
+          style={getRealPx(itemStyles)}
+        >{this.getCurrentComponent(element)}</View></View>)
     }
 
   }

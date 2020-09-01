@@ -1,5 +1,5 @@
 {
-  "miniprogramRoot": "./dist",
+  "miniprogramRoot": "./demon",
   "projectname": "demon",
   "description": "这是一个自动配置各种页面项目",
   "appid": "touristappid",
