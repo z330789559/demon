@@ -1,5 +1,5 @@
 // /* eslint-disable */
-export const host_prd_prd = "http://house.yffrom.com:3721"
+export const host_prd= "http://house.yffrom.com:3721"
 // export const host_prdM = host_prd_M
 // /* eslint-enable */
 // export const app_host_prd= APP_host_prd

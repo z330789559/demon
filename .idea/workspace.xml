@@ -2,46 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8e3478-c834-4ae4-89cd-b081492f8a5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/chunk/0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/19.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/20.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/21.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/22.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/community_community.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/create_create.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/create_sence-detail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/customer-view_customer-view.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/form-item_form-item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/form-list_form-list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/form-preview_form-preview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/issue-lib_issue-lib.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/main_main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/me_me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/opus_opus.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/sence-preview_sence-preview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/user-login_user-login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/1.c4cfe268de050d5ea124.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/19.ea4a5dbf2908bcf2ab42.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/3.782b761908278d1ce57e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.e05ba16c7c093b0779b4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/create_create.0a30b721ae7d6adad1d8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/create_sence-detail.dc068c82490eed4dd19c.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/customer-view_customer-view.5370771fc8b4f0f1a0de.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/form-item_form-item.f7ca6efee0e7eda2508f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/form-list_form-list.847a28183140011928ee.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/form-preview_form-preview.545537aacaa4b9f8278e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/issue-lib_issue-lib.df78b0da59778b0f8c63.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/opus_opus.fed8132ea1dd42c0fde6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/sence-preview_sence-preview.319ca0d0e6e275df4cf2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/images/fash.349d6bed2195226fe84ca2405846e13b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/images/loading.a0cbcc17ab3eba84e5f44154f34b73c8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/media/youhebuke.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/api.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -96,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/constants/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="15">
+              <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -419,18 +379,18 @@
       <workItem from="1595762682541" duration="692000" />
       <workItem from="1597474994872" duration="1067000" />
       <workItem from="1598083391288" duration="2996000" />
-      <workItem from="1598492087351" duration="5709000" />
+      <workItem from="1598492087351" duration="5885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266356000" />
+    <option name="totallyTimeSpent" value="266532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="69" width="1470" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24292615" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24292615" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -445,7 +405,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936978" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3295964" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30558857" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30558857" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -935,8 +895,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/constants/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="15">
+          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
         </state>
       </provider>
     </entry>
