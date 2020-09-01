@@ -1,6 +1,6 @@
 
 const isH5 = process.env.CLIENT_ENV === 'h5'
-const HOST = '"http://localhost:3721"'
+const HOST = '""'
 const HOST_M = '"https://m.you.163.com"'
 const APP_HOST ='/api-app'
 
@@ -10,7 +10,7 @@ module.exports = {
     NODE_ENV: '"development"'
   },
   defineConstants: {
-    HOST: isH5 ? '"http://localhost:3721"' : HOST,
+    HOST: isH5 ? '""' : HOST,
     HOST_M: isH5 ? '"/api-m"' : HOST_M,
     APP_HOST: isH5 ? '"/api-app"' : APP_HOST
   },

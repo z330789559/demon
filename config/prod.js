@@ -17,6 +17,6 @@ module.exports = {
   },
   weapp: {},
   h5: {
-    publicPath: '/demon'
+    publicPath: ''
   }
 }

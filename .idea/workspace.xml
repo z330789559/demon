@@ -2,49 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f8e3478-c834-4ae4-89cd-b081492f8a5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/dev.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/19.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/20.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/21.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/22.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/community_community.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/create_create.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/create_sence-detail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/customer-view_customer-view.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/form-item_form-item.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/form-list_form-list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/form-preview_form-preview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/issue-lib_issue-lib.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/main_main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/me_me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/opus_opus.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/sence-preview_sence-preview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/chunk/user-login_user-login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/1.03e30845ca4bfbd8d41a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/19.ea4a5dbf2908bcf2ab42.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/3.782b761908278d1ce57e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/app.b664b2f5f8acbaf136ea.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/create_create.0a30b721ae7d6adad1d8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/create_sence-detail.dc068c82490eed4dd19c.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/customer-view_customer-view.5370771fc8b4f0f1a0de.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/form-item_form-item.f7ca6efee0e7eda2508f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/form-list_form-list.847a28183140011928ee.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/form-preview_form-preview.545537aacaa4b9f8278e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/issue-lib_issue-lib.df78b0da59778b0f8c63.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/opus_opus.fed8132ea1dd42c0fde6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/sence-preview_sence-preview.319ca0d0e6e275df4cf2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/images/fash.349d6bed2195226fe84ca2405846e13b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/images/loading.a0cbcc17ab3eba84e5f44154f34b73c8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static/media/youhebuke.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/api.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="-436">
               <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
@@ -87,26 +46,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/dev.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/constants/api.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="2">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/constants/api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/prod.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="285">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -199,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pages/components/Content/index.js" />
         <option value="$PROJECT_DIR$/src/reducers/opusItem.js" />
         <option value="$PROJECT_DIR$/src/pages/opus/opus-item/index.js" />
         <option value="$PROJECT_DIR$/src/pages/form-list/form-list.js" />
@@ -247,9 +205,10 @@
         <option value="$PROJECT_DIR$/project.config.json" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/config/prod.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/constants/api.js" />
+        <option value="$PROJECT_DIR$/config/dev.js" />
+        <option value="$PROJECT_DIR$/config/prod.js" />
       </list>
     </option>
   </component>
@@ -398,12 +357,12 @@
       <workItem from="1595762682541" duration="692000" />
       <workItem from="1597474994872" duration="1067000" />
       <workItem from="1598083391288" duration="2996000" />
-      <workItem from="1598492087351" duration="4529000" />
+      <workItem from="1598492087351" duration="4723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265176000" />
+    <option name="totallyTimeSpent" value="265370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="69" width="1470" height="976" extended-state="0" />
@@ -874,32 +833,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/prod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/formList.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -922,8 +857,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/constants/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-436">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
